@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { min-height: 100vh;max-width: 100vhs;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root{
+    --primaryBG:#212121;
+    --blue:#1976d2;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-grow: column;
+    flex-wrap: wrap;
+    background-color: var(--primaryBG);
+    min-height: 100vh;
+    h1 {
+        color: white;
+    }
+}

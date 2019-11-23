@@ -1,0 +1,19 @@
+.btn{
+    width: 200px;
+    height: 45px;
+    padding: 6px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: var(--blue);
+    font-size: 1em;
+    color: white;
+    display: flex;
+    border-radius: 8px;
+}
+
+.form-ctn{
+    .mat-form-field{
+        display: block;
+    }
+
+}

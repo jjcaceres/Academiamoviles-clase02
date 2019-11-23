@@ -1,0 +1,17 @@
+<div class="container">
+    <h1>Estas en el componente Login</h1>
+    <div class="btn" (click)="goToRegistrar()">Registra</div>
+    <div clas="form-ctn">
+        <form [formGroup]="loginForm" (submit)="onSubmit()"> 
+            <mat-form-field class="mat-input-full">
+                <input matInput placeholder="Email"  id="email" type="email" formControlName="userEmail">
+              </mat-form-field>
+              <mat-form-field class="mat-input-full">
+                <input matInput placeholder="contraseña"  id="password" type="email" formControlName="password">
+              </mat-form-field>
+              <div>
+                  <button type="submit" class="btn">Ingresar</button>
+              </div>
+        </form>
+    </div>
+</div>

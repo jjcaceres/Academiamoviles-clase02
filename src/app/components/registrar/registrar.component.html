@@ -1,0 +1,16 @@
+<div class="container">
+  
+    <div clas="form-ctn">
+        <form [formGroup]="loginForm" (submit)="onSubmit()"> 
+            <mat-form-field class="mat-input-full">
+                <input matInput placeholder="Email"  id="email1" type="email" formControlName="userEmail">
+              </mat-form-field>
+              <mat-form-field class="mat-input-full">
+                <input matInput placeholder="contraseña"  id="password1" type="email" formControlName="password">
+              </mat-form-field>
+              <div>
+                  <button type="submit" class="btn">Ingresar</button>
+              </div>
+        </form>
+    </div>
+</div>
